@@ -130,7 +130,7 @@ public class GameFragment extends ButterKnifeFragment {
 			@Override
 			public void run() {
 				for (Button b2 : btnResponses){
-					b2.setBackgroundColor(getResources().getColor(R.color.colorPrimary,null));
+					b2.setBackgroundResource(R.drawable.action_blue);
 				}
 				launchGame();
 			}
@@ -152,7 +152,7 @@ public class GameFragment extends ButterKnifeFragment {
 
 	private  List<IslandInfoHolder> pick3RandomOtherThan(IslandInfoHolder islandInfoHolder) {
 		islandInfoHolders.remove(islandInfoHolder);
-		List<IslandInfoHolder> copy = new LinkedList<IslandInfoHolder>(islandInfoHolders);
+		List<IslandInfoHolder> copy = new LinkedList<>(islandInfoHolders);
 		Collections.shuffle(copy);
 		islandInfoHolders.add(islandInfoHolder);
 		return copy.subList(0, 3);

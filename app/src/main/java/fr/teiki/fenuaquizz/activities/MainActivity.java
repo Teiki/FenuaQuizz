@@ -1,12 +1,12 @@
 package fr.teiki.fenuaquizz.activities;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 		listViewActions.setAdapter(new ActionsAdapter(this));
 		listViewActions.setOnItemClickListener( this);
+		listViewActions.addHeaderView(getLayoutInflater().inflate(R.layout.header_list, listViewActions, false));
 	}
 
 

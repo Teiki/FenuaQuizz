@@ -16,4 +16,5 @@
     <string name="game_question">Comment s\'apelle l\'île suivante?</string>
     <string name="score_label">Votre score est de : </string>
     <string name="title_activity_play">PlayActivity</string>
+    <string name="main_lbl">Choisi un archipel où tester tes connaissances!</string>
 </resources>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string-array name="main_list_img_archipels">
         <item>societe</item>
         <item>australes</item>
@@ -107,7 +107,7 @@
         <item>nukutepipi</item>
         <item>paraoa</item>
         <item>pinaki</item>
-        <item tools:ignore="Typos">puka puka</item>
+        <item>puka puka</item>
         <item>pukarua</item>
         <item>rangiroa</item>
         <item>raraka</item>

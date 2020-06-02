@@ -7,6 +7,7 @@
     <color name="red_error">#80E81111</color>
     <color name="red_selection">#bd712e</color>
     <color name="blue_light">#2d88d1</color>
+    <color name="blue_light_transparent">#9F2d88d1</color>
 
     <color name="black_overlay">#66000000</color>
 </resources>

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/blue_light"
+    android:background="@drawable/action_blue"
     android:layout_margin="5dp"
     android:orientation="vertical">
 
@@ -32,9 +32,17 @@
             android:id="@+id/txt_desc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
             android:textSize="18sp"
-            android:layout_weight="70"/>
+            android:layout_weight="66"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="4"
+            android:src="@drawable/forward"/>
 
     </LinearLayout>
 
