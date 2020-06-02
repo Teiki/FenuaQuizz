@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="main_list_img_archipels">
         <item>societe</item>
         <item>australes</item>
@@ -11,7 +11,7 @@
         <item>L\'archipel de la Société, le plus peuplé des cinq, est divisé en deux groupes : les îles du Vent et les îles Sous-le-Vent.</item>
         <item>L\'archipel des Australes, composé d\'un groupe de cinq îles hautes principales, et de deux groupes de quatre îles ou ilots</item>
         <item>L\'archipel des Tuamotu, le plus grand, est composé de 76 atolls formées d\'un étroit banc de sable.</item>
-        <item>L\'archipel des Gambiers, composé de quatorze îles hautes, dont quatre de très petite taille, ainsi que de plusieurs îlots ancrés sur le récif qui enserre le lagon.</item>
+        <item>L\'archipel des Gambier, composé de quatorze îles hautes, dont quatre de très petite taille, ainsi que de plusieurs îlots ancrés sur le récif qui enserre le lagon.</item>
         <item>L\'archipel des Marquises, composé en deux parties : le groupe septentrional et le groupe méridional au sud</item>
     </string-array>
 
@@ -29,6 +29,39 @@
         <item>Maupihaa</item>
         <item>Manuae</item>
         <item>MotuOne</item>
+    </string-array>
+
+    <string-array name="marquises_islands">
+        <item>eiao</item>
+        <item>fatu huku</item>
+        <item>fatu iva</item>
+        <item>hatu iti</item>
+        <item>hatutaa</item>
+        <item>hiva oa</item>
+        <item>motane</item>
+        <item>nuku hiva</item>
+        <item>tahuata</item>
+        <item>ua huka</item>
+        <item>ua pou</item>
+    </string-array>
+
+    <string-array name="gambier_islands">
+        <item>morane</item>
+        <item>rikitea</item>
+        <item>akamaru</item>
+        <item>aukena</item>
+        <item>mangareva</item>
+        <item>taravai</item>
+        <item>temoe</item>
+    </string-array>
+    
+    <string-array name="australes_islands">
+    <item>maria</item>
+    <item>raivavae</item>
+    <item>rapa</item>
+    <item>rimatara</item>
+    <item>rurutu</item>
+    <item>tubuai</item>
     </string-array>
     
     <string-array name="tuamotu_islands">
@@ -74,7 +107,7 @@
         <item>nukutepipi</item>
         <item>paraoa</item>
         <item>pinaki</item>
-        <item>puka puka</item>
+        <item tools:ignore="Typos">puka puka</item>
         <item>pukarua</item>
         <item>rangiroa</item>
         <item>raraka</item>
@@ -106,31 +139,4 @@
         <item>vanavana</item>
     </string-array>
 
-    <string-array name="windward_islands_images_archipel">
-        <item>societe_tahiti</item>
-        <item>societe_moorea</item>
-        <item>societe_maiao</item>
-        <item>societe_mehetia</item>
-        <item>societe_tetiaroa</item>
-    </string-array>
-
-    <string-array name="windward_islands_images_island">
-        <item>tahiti</item>
-        <item>moorea</item>
-        <item>maiao</item>
-        <item>mehetia</item>
-        <item>tetiaroa</item>
-    </string-array>
-
-    <string-array name="leeward_islands">
-        <item>Bora-Bora</item>
-        <item>Huahine</item>
-        <item>Maupiti</item>
-        <item>Raiatea</item>
-        <item>Tahaa</item>
-        <item>Manuae</item>
-        <item>Maupihaa</item>
-        <item>Motu One</item>
-        <item>Tupai</item>
-    </string-array>
 </resources>

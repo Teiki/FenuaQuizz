@@ -9,6 +9,8 @@ import android.graphics.drawable.Drawable;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by Antoine GALTIER on 07/05/2020.
@@ -20,6 +22,9 @@ public class IslandInfoHolder {
 
 	private String name;
 	private String archipel;
+
+	private static String[] mangareva_islands = {"akamaru", "aukena", "taravai", "rikitea"};
+	private static List<String> mangareva_islands_list = Arrays.asList(mangareva_islands);
 
 	public IslandInfoHolder(String name, String archipel) {
 		this.name = name;
@@ -48,7 +53,11 @@ public class IslandInfoHolder {
 	public Bitmap getImg_island(Context context) {
 		AssetManager assetManager = context.getAssets();
 		try {
-			InputStream is = assetManager.open("island/"+archipel+"/"+name.toLowerCase()+".png");
+			String temp_name = name;
+			if (mangareva_islands_list.contains(name)){
+				temp_name = "mangareva";
+			}
+			InputStream is = assetManager.open("island/"+archipel+"/"+temp_name.toLowerCase()+".png");
 			return BitmapFactory.decodeStream(is);
 		} catch (IOException e) {
 			e.printStackTrace();
