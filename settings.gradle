@@ -1,0 +1,2 @@
+rootProject.name='Fenua Quizz'
+include ':app'

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fenua Quizz</string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="end_game_label">RETOUR</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="img_island_content_description">Image du jeu</string>
+    <string name="game_question">Comment s\'apelle l\'île suivante?</string>
+    <string name="score_label">Votre score est de : </string>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>

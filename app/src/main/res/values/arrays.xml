@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_list_img_archipels">
+        <item>societe</item>
+        <item>australes</item>
+        <item>tuamotu</item>
+        <item>gambier</item>
+        <item>marquises</item>
+    </string-array>
+    <string-array name="main_list_deciptions">
+        <item>L\'archipel de la Société, le plus peuplé des cinq, est divisé en deux groupes : les îles du Vent et les îles Sous-le-Vent.</item>
+        <item>L\'archipel des Australes, composé d\'un groupe de cinq îles hautes principales, et de deux groupes de quatre îles ou ilots</item>
+        <item>L\'archipel des Tuamotu, le plus grand, est composé de 76 atolls formées d\'un étroit banc de sable.</item>
+        <item>L\'archipel des Gambiers, composé de quatorze îles hautes, dont quatre de très petite taille, ainsi que de plusieurs îlots ancrés sur le récif qui enserre le lagon.</item>
+        <item>L\'archipel des Marquises, composé en deux parties : le groupe septentrional et le groupe méridional au sud</item>
+    </string-array>
+
+    <string-array name="societe_islands">
+        <item>Tahiti</item>
+        <item>Moorea</item>
+        <item>Maiao</item>
+        <item>Mehetia</item>
+        <item>Tetiaroa</item>
+        <item>Huahine</item>
+        <item>Raiatea</item>
+        <item>Tahaa</item>
+        <item>BoraBora</item>
+        <item>Maupiti</item>
+        <item>Maupihaa</item>
+        <item>Manuae</item>
+        <item>MotuOne</item>
+    </string-array>
+    
+    <string-array name="tuamotu_islands">
+        <item>hereheretue</item>
+        <item>ahe</item>
+        <item>ahunui</item>
+        <item>akiaki</item>
+        <item>amanu</item>
+        <item>anaa</item>
+        <item>anuanuraro</item>
+        <item>anuanurunga</item>
+        <item>apatiki</item>
+        <item>aratika</item>
+        <item>arutua</item>
+        <item>faaite</item>
+        <item>fakahina</item>
+        <item>fakarava</item>
+        <item>fangatau</item>
+        <item>fangataufa</item>
+        <item>hao</item>
+        <item>haraiki</item>
+        <item>hikueru</item>
+        <item>hiti</item>
+        <item>katiu</item>
+        <item>kauehi</item>
+        <item>kaukura</item>
+        <item>makemo</item>
+        <item>manihi</item>
+        <item>manuhangi</item>
+        <item>maria (est)</item>
+        <item>marokau</item>
+        <item>marutea (nord)</item>
+        <item>marutea (sud)</item>
+        <item>mataiva</item>
+        <item>matureivavoa</item>
+        <item>moruroa</item>
+        <item>motutunga</item>
+        <item>napuka</item>
+        <item>nengonengo</item>
+        <item>niau</item>
+        <item>nihiru</item>
+        <item>nukutavake</item>
+        <item>nukutepipi</item>
+        <item>paraoa</item>
+        <item>pinaki</item>
+        <item>puka puka</item>
+        <item>pukarua</item>
+        <item>rangiroa</item>
+        <item>raraka</item>
+        <item>raroia</item>
+        <item>ravahere</item>
+        <item>reao</item>
+        <item>reitoru</item>
+        <item>rekareka</item>
+        <item>taenga</item>
+        <item>tahanea</item>
+        <item>takapoto</item>
+        <item>takaroa</item>
+        <item>takume</item>
+        <item>tatakoto</item>
+        <item>tauere</item>
+        <item>tekokota</item>
+        <item>tematangi</item>
+        <item>tenararo</item>
+        <item>tenarunga</item>
+        <item>tepoto (nord)</item>
+        <item>tepoto (sud)</item>
+        <item>tikehau</item>
+        <item>toau</item>
+        <item>tuanake</item>
+        <item>tureia</item>
+        <item>vahanga</item>
+        <item>vahitahi</item>
+        <item>vairaatea</item>
+        <item>vanavana</item>
+    </string-array>
+
+    <string-array name="windward_islands_images_archipel">
+        <item>societe_tahiti</item>
+        <item>societe_moorea</item>
+        <item>societe_maiao</item>
+        <item>societe_mehetia</item>
+        <item>societe_tetiaroa</item>
+    </string-array>
+
+    <string-array name="windward_islands_images_island">
+        <item>tahiti</item>
+        <item>moorea</item>
+        <item>maiao</item>
+        <item>mehetia</item>
+        <item>tetiaroa</item>
+    </string-array>
+
+    <string-array name="leeward_islands">
+        <item>Bora-Bora</item>
+        <item>Huahine</item>
+        <item>Maupiti</item>
+        <item>Raiatea</item>
+        <item>Tahaa</item>
+        <item>Manuae</item>
+        <item>Maupihaa</item>
+        <item>Motu One</item>
+        <item>Tupai</item>
+    </string-array>
+</resources>
